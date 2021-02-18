@@ -9,6 +9,16 @@ const apps = [
       'Lolly is a feed-based social dating experience where users find meaningful matches through short-form video content. Lolly transforms the connections between people by replacing generic dating apps with an immersive video feed experience. Discovery on Lolly is defined by the personality of content that users create and consume, not by curated pictures or a rank of “user attractiveness."',
   },
   {
+    name: 'Pludo',
+    image: 'pludo.png',
+    appStoreLink:
+      'https://apps.apple.com/us/app/pludo-social-voice-messages/id1542827622',
+    appStoreImages: ['pludo-1.png', 'pludo-2.png'],
+    features: ['SwiftUI', 'Audio Chat', 'Test-Driven Development', 'Socket IO'],
+    description:
+      'Pludo is a social audio platform that lets you create and discover Spaces dedicated to certain topics, personalities and communities. Create and manage spaces for a community or audience.',
+  },
+  {
     name: 'Level Home',
     image: 'level-home.png',
     appStoreLink: 'https://apps.apple.com/us/app/level-home/id1490027518',
