@@ -10,6 +10,33 @@ const apps = [
       'Lottery.com is the first-ever, safe and secure, mobile lottery platform that lets you play official U.S. lottery games right from your phone."',
   },
   {
+    name: "Aly Go",
+    image: "aly.png",
+    appStoreLink: "https://apps.apple.com/us/app/id1543230654",
+    appStoreImages: ["aly-1.png", "aly-2.png", "aly-3.png"],
+    features: ["UIKit", "Realm", "Test-Driven Development"],
+    description:
+      "Internal Alyvant application designed for pharmaceutical sales representatives, used to deliver useful and easy-to-consume physician information to the sales agents, facilitating productive call planning and physician visits.",
+  },
+  {
+    name: "Reddit",
+    image: "reddit.png",
+    appStoreLink: "https://apps.apple.com/us/app/reddit/id1064216828",
+    appStoreImages: ["reddit-1.png", "kokoon-2.png", "kokoon-3.png"],
+    features: ["UIKit", "AVFoundation", "Social Network"],
+    description:
+      "Reddit is the place where people come together to have the most authentic and interesting conversations on the internet—Where gaming communities, nostalgic internet forums, bloggers, meme-makers, and fandoms mingle alongside video streamers, support groups, news junkies, armchair experts, seasoned professionals, and artists and creators of all types.",
+  },
+  {
+    name: "My Kokoon",
+    image: "kokoon.png",
+    appStoreLink: "https://apps.apple.com/is/app/mykokoon/id1533992618",
+    appStoreImages: ["kokoon-1.png", "kokoon-2.png", "kokoon-3.png"],
+    features: ["Bluetooth", "Combine", "Test-Driven Development"],
+    description:
+      "MyKokoon is a digital therapeutic solution for sleep, powered by Kokoon’s biometric sleep headphones. We focus on creating a unique, superior bedtime experience for our members to help them escape from the stresses of every day.",
+  },
+  {
     name: "Lolly",
     image: "lolly.png",
     appStoreLink: "https://apps.apple.com/us/app/lolly-dating/id1525109653",
@@ -17,6 +44,15 @@ const apps = [
     features: ["Firebase", "Image Filtering", "Test-Driven Development"],
     description:
       'Lolly is a feed-based social dating experience where users find meaningful matches through short-form video content. Lolly transforms the connections between people by replacing generic dating apps with an immersive video feed experience. Discovery on Lolly is defined by the personality of content that users create and consume, not by curated pictures or a rank of “user attractiveness."',
+  },
+  {
+    name: "Sellou",
+    image: "sellou.png",
+    appStoreLink: "https://apps.apple.com/us/app/sellou/id1548126433",
+    appStoreImages: ["sellou-1.png", "sellou-2.png", "sellou-3.png"],
+    features: ["SwiftUI", "Combine", "Test-Driven Development"],
+    description:
+      "The Sellou app connects photography with selling. Build an audience, become an influencer, and sell to your fan base.",
   },
   {
     name: "Pludo",
