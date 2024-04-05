@@ -4,8 +4,24 @@ const apps = [
     image: "speechify.png",
     appStoreLink: "https://apps.apple.com/us/app/speechify-text-to-speech-audio/id1209815023",
     appStoreImages: ["speechify-1.png", "speechify-2.png", "speechify-3.png"],
-    features: ["SwiftUI", "Combine", "Test-Driven Development"],
+    features: ["SwiftUI", "Combine", "AVFoundation", "OCR", "Test-Driven Development"],
     description: 'Text to speech from Speechify lets you listen to docs, articles, PDFs, email, and various other formats — anything you read. With 20M+ users, it is the top rated TTS app in the AppStore. Our users have listened to over 250 billion words with Speechify."'
+  },
+  {
+    name: "Reddit",
+    image: "reddit.png",
+    appStoreLink: "https://apps.apple.com/us/app/reddit/id1064216828",
+    appStoreImages: ["reddit-1.png", "reddit-2.png", "reddit-3.png"],
+    features: ["UIKit", "AVFoundation", "Social Network"],
+    description: "Reddit is the place where people come together to have the most authentic and interesting conversations on the internet—Where gaming communities, nostalgic internet forums, bloggers, meme-makers, and fandoms mingle alongside video streamers, support groups, news junkies, armchair experts, seasoned professionals, and artists and creators of all types."
+  },
+  {
+    name: "Flightradar24",
+    image: "flightradar24.png",
+    appStoreLink: "https://apps.apple.com/us/app/flightradar24-flight-tracker/id382233851",
+    appStoreImages: ["flightradar24-1.png", "flightradar24-2.png", "flightradar24-3.png"],
+    features: ["UIKit", "Combine", "Test-Driven Development"],
+    description: "The world's best flight tracker app - #1 Travel app in over 150 countries."
   },
   {
     name: "Lottery.com",
@@ -22,14 +38,6 @@ const apps = [
     appStoreImages: ["aly-1.png", "aly-2.png", "aly-3.png"],
     features: ["UIKit", "Realm", "Test-Driven Development"],
     description: "Internal Alyvant application designed for pharmaceutical sales representatives, used to deliver useful and easy-to-consume physician information to the sales agents, facilitating productive call planning and physician visits."
-  },
-  {
-    name: "Reddit",
-    image: "reddit.png",
-    appStoreLink: "https://apps.apple.com/us/app/reddit/id1064216828",
-    appStoreImages: ["reddit-1.png", "kokoon-2.png", "kokoon-3.png"],
-    features: ["UIKit", "AVFoundation", "Social Network"],
-    description: "Reddit is the place where people come together to have the most authentic and interesting conversations on the internet—Where gaming communities, nostalgic internet forums, bloggers, meme-makers, and fandoms mingle alongside video streamers, support groups, news junkies, armchair experts, seasoned professionals, and artists and creators of all types."
   },
   {
     name: "My Kokoon",
