@@ -1,5 +1,13 @@
 const apps = [
   {
+    name: "Chess.com",
+    image: "chess.com.png",
+    appStoreLink: "https://apps.apple.com/bm/app/chess-play-learn-online/id329218549?platform=iphone",
+    appStoreImages: ["chess.com-1.png", "chess.com-2.png", "chess.com-3.png"],
+    features: ["SwiftUI", "Combine", "UIKit", "Test-Driven Development"],
+    description: "Play chess online with over 150 million players from around the world! Chess, ajedrez, xadrez, satranç, شطرنج, scacchi, schach, șah, šachy, şahmat… no matter the language, no matter the name, it's known as the best strategy game in the world. Enjoy free unlimited 3d chess games and improve your chess rating with 500,000+ tactics puzzles, interactive lessons and videos, and over 100 powerful computer opponents. Unlock your inner chess master today!\""
+  },
+  {
     name: "Speechify",
     image: "speechify.png",
     appStoreLink: "https://apps.apple.com/us/app/speechify-text-to-speech-audio/id1209815023",
