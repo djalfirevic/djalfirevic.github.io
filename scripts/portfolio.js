@@ -1,5 +1,13 @@
 const apps = [
   {
+    name: "Mingle Sport",
+    image: "mingle.png",
+    appStoreLink: "https://apps.apple.com/us/app/mingle-sport-team-manager/id1583591186",
+    appStoreImages: ["mingle-1.png", "mingle-2.png", "mingle-3.png"],
+    features: ["SwiftUI", "TCA", "Kotlin Multiplatform", "Mixpanel"],
+    description: "Mingle Sport runs your football team in one place: availability, schedule, line-ups and match day. Trusted by 15,000+ teams and 300,000+ players, parents and coaches from all over the world."
+  },
+  {
     name: "Chess.com",
     image: "chess.com.png",
     appStoreLink: "https://apps.apple.com/bm/app/chess-play-learn-online/id329218549?platform=iphone",
