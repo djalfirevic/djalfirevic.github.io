@@ -18,16 +18,35 @@
 
     <title>Djuro Alfirevic | Engineering Manager, Product Manager & Mobile Engineer</title>
 
+    <!-- Theme: set before first paint so there is no flash of the wrong theme -->
+    <script>
+      (function () {
+        var theme = null
+        try {
+          theme = localStorage.getItem("theme")
+        } catch (error) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
+        }
+        document.documentElement.setAttribute("data-theme", theme)
+      })()
+    </script>
+
     <!-- Stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet" />
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/fontawesome-all.css" rel="stylesheet" />
     <link href="css/swiper.css" rel="stylesheet" />
     <link href="css/magnific-popup.css" rel="stylesheet" />
     <link href="css/styles.min.css?v=2" rel="stylesheet" />
-    <link rel="icon" href="images/favicon.ico" />
+    <link href="css/modern.css?v=5" rel="stylesheet" />
+    <link rel="icon" href="images/favicon.ico?v=2" sizes="any" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png?v=2" />
   </head>
   <body data-spy="scroll" data-target=".fixed-top">
+    <div id="scroll-progress" aria-hidden="true"></div>
+
     <!-- Preloader -->
     <div class="spinner-wrapper">
       <div class="spinner">
@@ -64,6 +83,10 @@
           <span class="nav-item">
             <a class="btn-outline-sm page-scroll" href="mailto:djalfirevic@gmail.com" target="_blank">Contact</a>
           </span>
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch between light and dark theme" aria-pressed="false">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+            <i class="fas fa-sun" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
     </nav>
@@ -85,8 +108,27 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <div class="image-container">
-              <img class="img-fluid" src="images/apple-products.png" alt="alternative" />
+            <div class="hero-stats">
+              <div class="stat">
+                <div class="stat-value"><span data-count-to="20">20</span>+</div>
+                <div class="stat-label">years in software</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value"><span data-count-to="200">200</span>+</div>
+                <div class="stat-label">apps shipped</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value"><span data-count-to="2">2</span>×</div>
+                <div class="stat-label">Apple App of the Year</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value"><span data-count-to="20">20</span>+</div>
+                <div class="stat-label">engineers in my largest team</div>
+              </div>
+            </div>
+            <div class="app-marquee" role="img" aria-label="Icons of apps I have worked on, including Mingle Sport, Chess.com, Speechify, Reddit and Flightradar24">
+              <div class="marquee-row"><div class="marquee-track"></div></div>
+              <div class="marquee-row marquee-reverse"><div class="marquee-track"></div></div>
             </div>
           </div>
         </div>
@@ -370,39 +412,6 @@
       </div>
     </div>
 
-    <!-- Statistics -->
-    <div id="stats" class="counter">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <!-- Counter -->
-            <div id="counter">
-              <div class="cell">
-                <i class="fas fa-mobile-alt"></i>
-                <div class="counter-value number-count" data-count="205">1</div>
-                <p class="counter-info">Developed Apps</p>
-              </div>
-              <div class="cell">
-                <i class="fas fa-code green"></i>
-                <div class="counter-value number-count" data-count="20">1</div>
-                <p class="counter-info">Years of Experience</p>
-              </div>
-              <div class="cell">
-                <i class="fas fa-project-diagram red"></i>
-                <div class="counter-value number-count" data-count="4">1</div>
-                <p class="counter-info">Open Source Projects</p>
-              </div>
-              <div class="cell">
-                <i class="fas fa-star yellow"></i>
-                <div class="counter-value number-count" data-count="5.0">1</div>
-                <p class="counter-info">Codementor Rating</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Footer -->
     <div class="footer">
       <div class="container">
@@ -442,6 +451,7 @@
     <script src="scripts/validator.min.js"></script>
     <script src="scripts/portfolio.js?v=2"></script>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/modern.js?v=2"></script>
     <script src="https://kit.fontawesome.com/de87ddbdd3.js" crossorigin="anonymous"></script>
   </body>
 </html>
