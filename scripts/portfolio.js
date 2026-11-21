@@ -48,6 +48,22 @@ const apps = [
     description: 'Lottery.com is the first-ever, safe and secure, mobile lottery platform that lets you play official U.S. lottery games right from your phone."'
   },
   {
+    name: "Trust Wallet",
+    image: "trust-wallet.png",
+    appStoreLink: "https://apps.apple.com/us/app/trust-crypto-bitcoin-wallet/id1288339409",
+    appStoreImages: ["trust-wallet-1.png", "trust-wallet-2.png", "trust-wallet-3.png"],
+    features: ["Swift", "Multi-chain wallet", "Web3 / dApps", "Security"],
+    description: "Trust Wallet is a self-custody crypto wallet used by more than 200 million people. It supports 100+ blockchains, with send and receive, swaps, staking, NFTs and access to Web3 apps."
+  },
+  {
+    name: "Bitcoin.com Wallet",
+    image: "bitcoin-com-wallet.png",
+    appStoreLink: "https://apps.apple.com/us/app/bitcoin-com-crypto-wallet/id1252903728",
+    appStoreImages: ["bitcoin-com-wallet-1.png", "bitcoin-com-wallet-2.png", "bitcoin-com-wallet-3.png"],
+    features: ["Swift", "Self-custody wallet", "Payments"],
+    description: "The Bitcoin.com Wallet is a self-custody, multi-chain crypto wallet. Send, receive, swap and hold Bitcoin, Bitcoin Cash, Ethereum and other major cryptocurrencies, with full control of your keys."
+  },
+  {
     name: "Aly Go",
     image: "aly.png",
     appStoreLink: "https://apps.apple.com/us/app/id1543230654",
