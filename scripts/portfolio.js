@@ -64,6 +64,46 @@ const apps = [
     description: "The Bitcoin.com Wallet is a self-custody, multi-chain crypto wallet. Send, receive, swap and hold Bitcoin, Bitcoin Cash, Ethereum and other major cryptocurrencies, with full control of your keys."
   },
   {
+    name: "Truecaller",
+    image: "truecaller.png",
+    appStoreLink: "https://apps.apple.com/us/app/truecaller-premium-caller-id/id448142450",
+    appStoreImages: ["truecaller-1.png", "truecaller-2.png", "truecaller-3.png"],
+    features: ["Swift", "Caller ID", "Spam protection"],
+    description: "Truecaller identifies and blocks spam calls and lets you look up unknown numbers. It is trusted by more than 500 million users worldwide."
+  },
+  {
+    name: "Barstool Sports",
+    image: "barstool-sports.png",
+    appStoreLink: "https://apps.apple.com/us/app/barstool-sports/id456805313",
+    appStoreImages: ["barstool-sports-1.png", "barstool-sports-2.png", "barstool-sports-3.png"],
+    features: ["Swift", "Live video", "Podcasts"],
+    description: "The official Barstool Sports app: live video, podcasts and blogs about sports and pop culture from one of the biggest sports media brands in the US."
+  },
+  {
+    name: "TWINT",
+    image: "twint.png",
+    appStoreLink: "https://apps.apple.com/us/app/prepaid-twint-other-banks/id1001116392",
+    appStoreImages: ["twint-1.png", "twint-2.png", "twint-3.png"],
+    features: ["Swift", "Mobile payments", "UI testing"],
+    description: "TWINT is Switzerland's digital cash. Send and request money, pay in shops and online, pay for parking and buy vouchers, all from your phone."
+  },
+  {
+    name: "Clockify",
+    image: "clockify.png",
+    appStoreLink: "https://apps.apple.com/us/app/clockify-time-tracker/id1304431926",
+    appStoreImages: ["clockify-1.png", "clockify-2.png", "clockify-3.png"],
+    features: ["Swift", "Time tracking", "Timesheets"],
+    description: "Clockify is a time tracker and timesheet app used by individuals, teams and businesses to track work hours, projects and billable time."
+  },
+  {
+    name: "Driver",
+    image: "driver.png",
+    appStoreLink: "https://apps.apple.com/us/app/driver-dash-cam-trip-log/id1415557883",
+    appStoreImages: ["driver-1.png", "driver-2.png", "driver-3.png"],
+    features: ["Swift", "AVFoundation", "Cloud sync"],
+    description: "Driver turns your phone into a dual-camera dash cam. It records trips automatically, backs them up to the cloud and lets you share a link when you need proof."
+  },
+  {
     name: "Aly Go",
     image: "aly.png",
     appStoreLink: "https://apps.apple.com/us/app/id1543230654",
